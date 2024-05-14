@@ -1,0 +1,40 @@
+{
+    "name": "discord-alt-detector",
+    "author": "DJj123dj",
+    "version": "1.0.0",
+    "description": "A small library for discord.js to detect the suspiciousness of level of a user.",
+    
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "build": "node ./tools/cleanup.js && tsc -p ./tsconfig.json"
+    },
+    "keywords": [
+        "discord",
+        "discord-moderation",
+        "moderation",
+        "discord.js",
+        "djs",
+        "verification",
+        "discord-verification",
+        "checker",
+        "anti-alt",
+        "account",
+        "discord-anti-alt",
+        "nodejs",
+        "node.js"
+    ],
+    
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.15.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DJj123dj/discord-alt-detector.git"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "declaration": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
