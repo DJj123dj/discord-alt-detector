@@ -1,6 +1,6 @@
 <img src="https://apis.dj-dj.be/cdn/discord-alt-detector/logo.png" alt="Alt Detector" width="600px">
 
-[![discord](https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=flat-square&logo=discord)](https://discord.com/invite/26vT9wt3n3)  [![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/releases/tag/v1.0.0)  [![discord.js](https://img.shields.io/badge/discord.js-v14-CB3837.svg?style=flat-square&logo=npm)]()  [![license](https://img.shields.io/badge/license-MIT-important.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/blob/main/LICENSE) [![stars](https://img.shields.io/github/stars/djj123dj/discord-alt-detector?color=yellow&label=stars&logo=github&style=flat-square)](https://https://www.github.com/DJj123dj/discord-alt-detector)
+[![discord](https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=flat-square&logo=discord)](https://discord.com/invite/26vT9wt3n3)  [![version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/releases/tag/v1.0.1)  [![discord.js](https://img.shields.io/badge/discord.js-v14-CB3837.svg?style=flat-square&logo=npm)]()  [![license](https://img.shields.io/badge/license-MIT-important.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/blob/main/LICENSE) [![stars](https://img.shields.io/github/stars/djj123dj/discord-alt-detector?color=yellow&label=stars&logo=github&style=flat-square)](https://www.github.com/DJj123dj/discord-alt-detector)
 
 ### Discord Alt Detector
 Discord Alt Detector is a small [npm package](https://www.npmjs.com/package/discord-alt-detector) to catch alt accounts based on a first glimpse. It will check for badges, username, pfp, status & more just to detect alt & scam accounts! If you're having trouble setting the bot up, feel free to join our support server and we will help you further! 
@@ -109,8 +109,13 @@ client.on("guildMemberAdd",(member) => {
 })
 ```
 
+## 📸 Example Usage
+Verification log message with trust level:
+
+<img src="https://apis.dj-dj.be/cdn/discord-alt-detector/example-embed.png" alt="Verification embed with trust level." width="350px">
+
 ## 🩷 Sponsors
-We don't have any sponsors yet! Would you like to sponsor?
+We don't have any sponsors yet! Would you like to do it?
 
 ## 🛠️ Contributors
 ### Official Team
@@ -122,7 +127,7 @@ We don't have any sponsors yet! Would you like to sponsor?
 We don't have any community contributors yet!
 
 ## 📎 Links
-current version: _v1.0.0_
+current version: _v1.0.1_
 </br>changelog: [click here](https://www.github.com/DJj123dj/discord-alt-detector/releases)
 </br>support: [click here](https://discord.dj-dj.be/)
 

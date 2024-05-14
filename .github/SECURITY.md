@@ -9,7 +9,8 @@ Below, you can find a list with the status of every Discord Alt Detector version
 
 | Version   | Supported | Until                       |
 |-----------|-----------|-----------------------------|
-| 1.0.0     | ✅        | Next Version                |
+| 1.0.1     | ✅        | Next Version                |
+| 1.0.0     | ❌        |                             |
 
 ## Reporting a Vulnerability
 

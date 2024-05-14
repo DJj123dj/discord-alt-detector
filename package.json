@@ -1,17 +1,18 @@
 {
     "name": "discord-alt-detector",
     "author": "DJj123dj",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A small library for discord.js to detect the suspiciousness of level of a user.",
     
-    "main": "dist/cjs/index.js",
-    "module": "dist/esm/index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
     
     "directories": {
         "test": "test"
     },
     "scripts": {
-        "build": "node ./tools/cleanup.js && tsc -p ./tsconfig.json"
+        "build": "node ./tools/cleanup.js && tsc -p ./tsconfig.json",
+        "test": "node ./test/example.js"
     },
     "keywords": [
         "discord",
