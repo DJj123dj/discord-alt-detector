@@ -1,9 +1,9 @@
 <img src="https://apis.dj-dj.be/cdn/discord-alt-detector/logo.png" alt="Alt Detector" width="600px">
 
-[![discord](https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=flat-square&logo=discord)](https://discord.com/invite/26vT9wt3n3)  [![version](https://img.shields.io/badge/version-1.0.3-brightgreen.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/releases/tag/v1.0.3)  [![discord.js](https://img.shields.io/badge/discord.js-v14-CB3837.svg?style=flat-square&logo=npm)]()  [![license](https://img.shields.io/badge/license-MIT-important.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/blob/main/LICENSE) [![stars](https://img.shields.io/github/stars/djj123dj/discord-alt-detector?color=yellow&label=stars&logo=github&style=flat-square)](https://www.github.com/DJj123dj/discord-alt-detector)
+[![discord](https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=flat-square&logo=discord)](https://discord.com/invite/26vT9wt3n3)  [![version](https://img.shields.io/badge/version-1.0.4-brightgreen.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/releases/tag/v1.0.4)  [![discord.js](https://img.shields.io/badge/discord.js-v14-CB3837.svg?style=flat-square&logo=npm)]()  [![license](https://img.shields.io/badge/license-MIT-important.svg?style=flat-square)](https://github.com/DJj123dj/discord-alt-detector/blob/main/LICENSE) [![stars](https://img.shields.io/github/stars/djj123dj/discord-alt-detector?color=yellow&label=stars&logo=github&style=flat-square)](https://www.github.com/DJj123dj/discord-alt-detector)
 
 ### Discord Alt Detector
-Discord Alt Detector is a small [npm package](https://www.npmjs.com/package/discord-alt-detector) to catch alt accounts based on a first glimpse. It will check for badges, username, pfp, status & more just to detect alt & scam accounts! If you're having trouble setting the bot up, feel free to join our support server and we will help you further! 
+Discord Alt Detector is a small [npm package](https://www.npmjs.com/package/discord-alt-detector) to catch alt accounts based on a first glimpse. It will check for badges, username, pfp, status & more just to detect alt & scam accounts! If you're having trouble setting up the package, feel free to join our support server and we will help you further! 
 
 **⚠️ The system isn't perfect, so be aware that there could be `false-positives` between the results! ⚠️**
 
@@ -17,7 +17,7 @@ This package requires the `PRESENCE` & `GUILD_MEMBERS` intents to be enabled in 
 It's required for the package to read the profiles & status of the members!
 
 ## 📌 Features
-- 📊 75% detection success rate
+- 📊 80% detection success rate
 - 📦 lightweight
 - ✅ made with typescript
 - ⚙️ advanced configuration using weights
@@ -106,10 +106,10 @@ const detector = new AltDetector({
 })
 
 client.on("guildMemberAdd",(member) => {
-    const result = altdetect.check(member)
-    const category = altdetect.getCategory(result)
+    const result = detector.check(member)
+    const category = detector.getCategory(result)
     console.log(member.user.displayName,result.total) //total score
-    console.log(category) //the level of trust based in categories (trusted,normal,suspicious,...)
+    console.log(category) //the level of trust based in categories (trusted, normal, suspicious, ...)
 })
 ```
 
@@ -119,15 +119,41 @@ Verification log message with trust level:
 <img src="https://apis.dj-dj.be/cdn/discord-alt-detector/example-embed.png" alt="Verification embed with trust level." width="350px">
 
 ## 🩷 Sponsors
-We don't have any sponsors yet! Would you like to do it?
+A big thanks to all our sponsors! Do you want to appear in this list? [Click here for more info](https://github.com/sponsors/DJj123dj)
+
+<table>
+<tr>
+<td><img src="https://github.com/roppl3r.png" alt="Profile Picture" width="80px"></td>
+</tr>
+<tr>
+<th><a href="https://github.com/roppl3r">roppl3r</a></th>
+</tr>
+</table>
+
+**Past Sponsors:**<br>
+<a href="https://github.com/sponsors/DJj123dj">
+<img src="https://github.com/SpyEye2.png" alt="SpyEye" width="40px">
+<img src="https://github.com/mods-hd.png" alt="Mods HD" width="40px">
+<img src="https://github.com/DOSEV5.png" alt="DOSEV5" width="40px">
+</a>
 
 ## 🛠️ Contributors
-### Official Team
-|Role             |User (discord name)|
-|-----------------|-------------------|
-|Developer        |djj123dj           |
+### 🖥️ Team
+This is the main team working on Discord Alt Detector. Don't forget to check their profiles!
+<table>
+<tr>
+<td><img src="https://github.com/DJj123dj.png" alt="Profile Picture" width="80px"></td>
+<td><img src="https://github.com/Sank34.png" alt="Profile Picture" width="80px"></td>
+<td><img src="https://github.com/smetsliam.png" alt="Profile Picture" width="80px"></td>
+</tr>
+<tr>
+<th><a href="https://github.com/DJj123dj">💻 DJj123dj</a></th>
+<th><a href="https://github.com/Sank34">💬 Sanke</a></th>
+<th><a href="https://github.com/smetsliam">💬 DevBack</a></th>
+</tr>
+</table>
 
-### Community
+### 📦 Community
 We don't have any community contributors yet!
 
 ## ⭐️ Star History
@@ -141,9 +167,11 @@ Please help us grow by giving a star! It would help us a lot!
  </picture>
 </a>
 
-## 📎 Links
-current version: _v1.0.3_
-</br>changelog: [click here](https://www.github.com/DJj123dj/discord-alt-detector/releases)
-</br>support: [click here](https://discord.dj-dj.be/)
 
-© 2024 - DJdj Development | [website](https://www.dj-dj.be) | [discord](https://discord.dj-dj.be) | [terms of service](https://www.dj-dj.be/terms)
+---
+<img src="https://apis.dj-dj.be/cdn/discord-alt-detector/logo.png" alt="Open Ticket Logo" width="170px">
+
+**README.md**<br>
+v1.0.4 - [changelog](https://otgithub.dj-dj.be/releases) - [discord](https://discord.dj-dj.be)<br>
+
+© 2025 - [DJdj Development](https://www.dj-dj.be) - [Terms](https://www.dj-dj.be/terms#terms) - [Privacy Policy](https://www.dj-dj.be/terms#privacy)

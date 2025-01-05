@@ -1,7 +1,7 @@
 {
     "name": "discord-alt-detector",
     "author": "DJj123dj",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A small library for discord.js to detect the suspiciousness of level of a user.",
     
     "main": "dist/index.js",
