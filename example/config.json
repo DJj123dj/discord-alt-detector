@@ -1,0 +1,7 @@
+{
+    "token":"your bot token",
+    "server":"your server id",
+    "embedColor":"#3987f6",
+    "showRawOutput":false,
+    "logChannel":"log channel id"
+}

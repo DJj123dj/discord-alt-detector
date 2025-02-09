@@ -18,7 +18,7 @@ client.on("ready",async () => {
     const server = client.guilds.cache.get(config.server)
     if (!server) throw new Error("Server not found!")
     
-        server.members.fetch().then((members) => {
+    server.members.fetch().then((members) => {
         members.forEach((member) => {
             console.log(member.user.displayName,altdetect.check(member))
         })
