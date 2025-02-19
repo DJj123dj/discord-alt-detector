@@ -1,0 +1,16 @@
+{
+    "name": "altdetect-example",
+    "description": "An example for the discord-alt-detector npm package!",
+    "author": "DJj123dj",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "discord-alt-detector": "^1.0.4"
+    }
+}
